@@ -1,0 +1,43 @@
+
+.Login-container {
+  max-width: 550px;
+  margin-top: 2%;
+  margin-left: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-top: 2%;
+  padding: 5%;
+}
+
+.form-title{
+  margin-left: 25%;
+}
+  
+.row {
+  margin-bottom: 15px;
+  width: 150%;
+}
+
+.row label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.row input,
+.row select {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5%;
+}
+
+.row button{
+ border:none;
+ color: white;
+ width: 110%;
+ margin-top: 5%;
+}
+

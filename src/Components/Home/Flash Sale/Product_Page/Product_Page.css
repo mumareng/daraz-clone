@@ -1,0 +1,44 @@
+.Product_Container {
+    background-color: white;
+    display: flex;
+    margin: 5%;
+  }
+  
+  .Product_image{
+    flex:1
+  }
+
+  .Product_image img {
+     width: 55%;
+  }
+  .Product_description {
+    flex:1
+  }
+  .Product_description h3 {
+    font-size: 200%;
+    margin-bottom: 5%;
+  }
+
+  .Product_description p {
+    margin-bottom: 5%;
+  }
+  
+  
+  .product-Button {
+    display: flex;
+  }
+
+  .Product_description button{
+    border: none;
+    color: white;
+    padding-left:5%;
+    padding-right:5%;
+    border-radius: 25px;
+  }
+  
+  .cart-alert {
+    color:orangered;
+    margin-top: 10px;
+    width: 25%;
+    padding: 5px;
+  }
